@@ -112,6 +112,7 @@ button {
 
 .section-hero {
   color: var(--primary-text-color);
+  background-color: var(--head-background-color);
 }
 
 .section-title {
@@ -122,18 +123,18 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .hero-title {
   color: var(--secondary-backgroud-color);
-  background-color: var(--head-background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 200px 452px 280px 452px;
+  margin-bottom: 40px;
 }
 
 .btn-index {
@@ -151,6 +152,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  margin: 0 auto;
 }
 
 .text {
@@ -194,6 +196,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
 }
 
 .textteam {
@@ -217,7 +220,7 @@ button {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--primary-backgroud-color);
+  color: var(--secondary-backgroud-color);
   font-style: normal;
 }
 
@@ -228,12 +231,34 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .contactsfot:hover,
 .contactsfot:focus {
   color: var(--accent-text-color);
 }
+
+.color-footer {
+  background-color: var(--head-background-color);
+}
+
+.logo-footer {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-color {
+  background-color: var(--head-background-color);
+}
+
 /* ----------ШАПКА-ПОРТФОЛИО---------- */
 
 .contacts {
@@ -274,6 +299,7 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  margin-bottom: 4px;
 }
 
 .textportfolio {
