@@ -16,18 +16,14 @@
   background-color: #ffffff;
 }
 
-* {
-}
-
 html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin-top: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -39,12 +35,24 @@ html {
   --head-background-color: #2f303a;
 }
 
-h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* ----------ШАПКА----------*/
@@ -106,7 +114,7 @@ h3 {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
