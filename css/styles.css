@@ -290,6 +290,10 @@ button {
   font-style: normal;
 }
 
+.address.footer {
+  margin-top: 20px;
+}
+
 .contactsfot {
   font-weight: 400;
   font-size: 14px;
@@ -297,7 +301,16 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  margin-bottom: 9px;
+}
+
+.contactsfot.mail {
+  display: block;
+  margin-top: 9px;
+}
+
+.contactsfot.tel {
+  display: block;
+  margin-top: 9px;
 }
 
 .contactsfot:hover,
@@ -316,13 +329,17 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
   text-decoration: none;
   color: #ffffff;
 }
 
 .footer-color {
   background-color: var(--head-background-color);
+}
+
+.container.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* ----------ШАПКА-ПОРТФОЛИО---------- */
