@@ -134,9 +134,9 @@ button {
   background-color: var(--head-background-color);
 }
 
-.hero-content {
+/* .hero-content {
   padding: 200px 452px 280px 452px;
-}
+} */
 
 .section-title {
   color: var(--primary-text-color);
@@ -159,6 +159,10 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 40px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .btn-index {
