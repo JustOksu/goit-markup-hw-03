@@ -350,6 +350,11 @@ button {
   border-radius: 4px;
 }
 
+.site-nav.list-portfolio {
+  list-style: none;
+  display: flex;
+}
+
 .header-portfolio {
   display: block;
   border-bottom: 1px #ececec;
@@ -359,6 +364,25 @@ button {
 .btn-profile:focus {
   color: var(--secondary-backgroud-color);
   background-color: var(--accent-text-color);
+}
+
+/* ----------НАВИГАЦИЯ-ОРТФОЛИО---------- */
+
+.section-portfolio {
+  list-style: none;
+  padding-top: 100px;
+  padding-bottom: 94px;
+}
+
+.site-nav.list-images {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.site-nav.list-portfolio {
+  margin-bottom: 56px;
+  list-style: none;
 }
 
 /* ----------СОДЕРЖАНИЕ ПОРТФОЛИО---------- */
