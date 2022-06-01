@@ -24,13 +24,13 @@
 
     <header class="hat">
       <div class="container hat-portfolio">
-        <a class="logo" lang="en" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
         <nav class="nav-potfolio">
+          <a class="logo" lang="en" href="./index.html"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
           <ul class="contacto">
-            <li><a href="" class="link">Студия</a></li>
-            <li><a href="" class="link">Портфолио</a></li>
+            <li><a href="./index.html" class="link">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
@@ -76,8 +76,10 @@
                 height="294"
                 alt="Laptop"
               />
-              <h3 class="potfolioh3">Технокряк</h3>
-              <p class="textportfolio">Веб-сайт</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Технокряк</h3>
+                <p class="textportfolio">Веб-сайт</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part1">
@@ -88,8 +90,10 @@
                 height="294"
                 alt="Basketboll"
               />
-              <h3 class="potfolioh3">Постер New Orlean vs Golden Star</h3>
-              <p class="textportfolio">Дизайн</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Постер New Orlean vs Golden Star</h3>
+                <p class="textportfolio">Дизайн</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part1">
@@ -100,8 +104,10 @@
                 height="294"
                 alt="Seafood"
               />
-              <h3 class="potfolioh3">Ресторан Seafood</h3>
-              <p class="textportfolio">Приложение</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Ресторан Seafood</h3>
+                <p class="textportfolio">Приложение</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part2">
@@ -112,8 +118,10 @@
                 height="294"
                 alt="Headphones"
               />
-              <h3 class="potfolioh3">Проект Prime</h3>
-              <p class="textportfolio">Маркетинг</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Проект Prime</h3>
+                <p class="textportfolio">Маркетинг</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part2">
@@ -124,8 +132,10 @@
                 height="294"
                 alt="Boxes"
               />
-              <h3 class="potfolioh3">Проект Boxes</h3>
-              <p class="textportfolio">Приложение</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Проект Boxes</h3>
+                <p class="textportfolio">Приложение</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part2">
@@ -136,8 +146,10 @@
                 height="294"
                 alt="Mac"
               />
-              <h3 class="potfolioh3">Inspiration has no Borders</h3>
-              <p class="textportfolio">Веб-сайт</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Inspiration has no Borders</h3>
+                <p class="textportfolio">Веб-сайт</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part3">
@@ -148,8 +160,10 @@
                 height="294"
                 alt="Magazine"
               />
-              <h3 class="potfolioh3">Издание Limited Edition</h3>
-              <p class="textportfolio">Дизайн</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Издание Limited Edition</h3>
+                <p class="textportfolio">Дизайн</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part3">
@@ -160,8 +174,10 @@
                 height="294"
                 alt="Tag"
               />
-              <h3 class="potfolioh3">Проект LAB</h3>
-              <p class="textportfolio">Маркетинг</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Проект LAB</h3>
+                <p class="textportfolio">Маркетинг</p>
+              </div>
             </li>
 
             <li class="list-portfolio-img part3">
@@ -172,8 +188,10 @@
                 height="294"
                 alt="Laptop2"
               />
-              <h3 class="potfolioh3">Growing Bubutton-profile</h3>
-              <p class="textportfolio">Приложение</p>
+              <div class="portfolio-text">
+                <h3 class="potfolioh3">Growing Bubutton-profile</h3>
+                <p class="textportfolio">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -186,15 +204,27 @@
         <a class="logo-footer" lang="en" href="./index.html"
           ><span class="logo-accent">Web</span>Studio</a
         >
-        <address class="address footer">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <a class="contactsfot mail" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="contactsfot tel" href="tel:+380961111111"
-          >+38 096 111 11 11</a
-        >
+        <ul class="info-footer">
+          <li>
+            <a
+              href="https://goo.gl/maps/hR7ppiLwR83ToFRW7"
+              target="_blank"
+              class="contactsfot map"
+              rel="noopener nofollow noreferrer"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li>
+            <a class="contactsfot mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contactsfot tel" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
