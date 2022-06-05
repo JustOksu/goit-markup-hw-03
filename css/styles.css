@@ -1,5 +1,11 @@
 /* ----------ОБЩИЙ---------- */
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .list {
   list-style: none;
 }
@@ -57,7 +63,7 @@ button {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: solid red; */
+  outline: solid red;
 }
 /* ----------ШАПКА----------*/
 
@@ -83,8 +89,6 @@ button {
 .nav-potfolio,
 .nav-index {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
 }
 
@@ -95,6 +99,10 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.contacto .link.current {
+  color: var(--accent-text-color);
 }
 
 .logo-accent {
@@ -146,9 +154,14 @@ button {
   color: var(--primary-text-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ----------ГЕРОЙ---------- */
 
-.section-hero {
+.section.section-hero {
   padding-bottom: 200px;
   padding-top: 200px;
   background-color: var(--head-background-color);
@@ -244,11 +257,6 @@ button {
   margin-left: 30px;
 }
 
-.section-wwd {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .it-wwd {
   display: block;
   max-height: 100%;
@@ -306,6 +314,7 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .imageteam {
@@ -318,8 +327,16 @@ button {
 .link,
 .contacts {
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contactsfot.map {
@@ -489,12 +506,13 @@ button {
 
 .site-nav.list-images {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.list-portfolio-img {
+/* .list-portfolio-img {
   margin-bottom: 30px;
-}
+} */
 
 /* .list-portfolio-img.part1,
 .list-portfolio-img.part2,
