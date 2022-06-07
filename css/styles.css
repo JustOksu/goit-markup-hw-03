@@ -63,7 +63,7 @@ button {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: solid red; */
+  outline: solid red;
 }
 /* ----------ШАПКА----------*/
 
@@ -262,6 +262,11 @@ button {
   max-height: 100%;
   height: auto;
 }
+
+.section-wwd {
+  padding-top: 0px;
+}
+
 /* ----------КОМАНДА---------- */
 
 .sectionteam {
